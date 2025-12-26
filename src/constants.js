@@ -154,7 +154,7 @@ export const SkillsInfo = [
       img: glaLogo,
       school: "Manav Rachna Institute",
       date: "August 2023 - July 2026",
-      grade: "7.5 CGPA",
+      grade: "7.8 CGPA",
       desc: "Pursuing B.Tech in Computer Science and Engineering at Manav Rachna International Institute of Research and Studies, I have gained strong foundations in programming, data structures, algorithms, databases, operating systems, and software development. Alongside academics, I explored web development, IoT, artificial intelligence, and data analytics through projects, internships, and hands-on learning. This journey has strengthened my technical expertise, problem-solving skills, teamwork, and innovative thinking, preparing me for real-world challenges in the tech industry.",
       degree: "Bachelors of Technology - B.tech (CSE)",
     },

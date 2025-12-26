@@ -23,4 +23,9 @@ html {
         clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
       }
   }
+
+section {
+  overflow: hidden;
+}
+
   
