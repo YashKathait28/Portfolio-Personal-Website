@@ -25,6 +25,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 // Experience Section Logo's
+import skillsbgimg from './assets/company_logo/3bg.png';
 import webverseLogo from './assets/company_logo/codealpha.png';
 import agcLogo from './assets/company_logo/chi.png';
 import newtonschoolLogo from './assets/company_logo/codsoft.png';
@@ -37,10 +38,10 @@ import vpsLogo from './assets/education_logo/ngfs.png';
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/AI-Chat-Bot.png';
 import csprepLogo from './assets/work_logo/E-commerce.png';
-import movierecLogo from './assets/work_logo/Weather-app.png';
+import movierecLogo from './assets/work_logo/EMS-IMG.png';
 import taskremLogo from './assets/work_logo/Techno-web.png';
-import npmLogo from './assets/work_logo/Tic-Tac-Toe.png';
-import webverLogo from './assets/work_logo/Amazon-Clone.png';
+import npmLogo from './assets/work_logo/Video-Con-IMG.png';
+import webverLogo from './assets/work_logo/Gallery-IMG.png';
 
 
 
@@ -103,6 +104,21 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
+      img: skillsbgimg,
+      role: "AIML Intern",
+      company: "3 Skill",
+      date: "November 2025 – January 2026",
+      desc: "Worked as an AIML Intern at 3 Skill, focusing on learning and applying core concepts of Artificial Intelligence and Machine Learning through guided tasks and practical exercises. Developed a strong foundation in Python-based workflows, basic machine learning concepts, and problem-solving approaches while maintaining professional discipline and commitment.",
+      skills: [
+        "Python",
+        "Machine Learning",
+        "AI Fundamentals",
+        "Data Handling",
+        "Problem Solving",
+      ],
+    },
+    {
+      id: 1,
       img: webverseLogo,
       role: "Data Analyst",
       company: "CodeAlpha",
@@ -116,7 +132,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: agcLogo,
       role: "Web Developer",
       company: "Centre for Health Innovations(CHI), MRIIRS",
@@ -134,7 +150,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: newtonschoolLogo,
       role: "C++ Programming Intern",
       company: "CodSoft",
@@ -201,23 +217,23 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      title: "Weather Website",
+      title: "Employee Management System",
       description:
-        "Developed a Weather App using React.js that fetches real-time weather data from APIs and displays it with a clean, responsive interface. The app features dynamic updates, search functionality for cities, and intuitive UI, showcasing my skills in React, API integration, and frontend development.",
+        "A web-based Employee Management System built using React.js to manage employee records efficiently. The application allows users to add, view, update, and delete employee details through a clean and responsive interface. It focuses on CRUD operations, structured data handling, and component-based architecture.",
       image: movierecLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API",],
-      github: "https://github.com/YashKathait28/Weather-App-JS",
-      webapp: "https://weather-app-pve3abj0c-yash-kathaits-projects.vercel.app/",
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Authentication"],
+      github: "https://github.com/YashKathait28/Employee-Management-System-App",
+      webapp: "https://employee-management-system-app-beryl.vercel.app/",
     },
     {
       id: 3,
-      title: "Tic-Tac-Toe",
+      title: "Video Conferencing App",
       description:
-        "I created a Tic-Tac-Toe game using HTML, CSS, and JavaScript with an interactive user interface and real-time game logic. The project features a simple yet responsive design, smooth gameplay, and winner detection functionality, showcasing my skills in core web technologies and building engaging browser-based applications.",
+        "A real-time video conferencing web application built using modern web technologies to enable seamless virtual communication. The application supports live video calls with an interactive and responsive user interface, focusing on real-time media handling and smooth user experience.",
       image: npmLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/YashKathait28/Tic-Tae-Toe-2-Game",
-      webapp: "https://tic-tae-toe-2-game.vercel.app/",
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "WebRTC", "ZegoCloud"],
+      github: "https://github.com/YashKathait28/Video-Conferencing-App",
+      webapp: "https://video-conferencing-app-teal.vercel.app/",
     },
     {
       id: 4,
@@ -231,12 +247,12 @@ export const SkillsInfo = [
     },
     {
       id: 5,
-      title: "Amazon Clone",
+      title: "Gallery App",
       description:
-        "I developed an Amazon clone using HTML, CSS, and JavaScript, replicating the core design and functionality of the e-commerce platform. The project includes product sections, navigation bar, responsive layouts, and interactive features that provide a real shopping-like experience. This showcases my skills in frontend development and building user-centric web interfaces.",
+        "A responsive image gallery web application built using React.js that fetches and displays images dynamically from an external API. The application focuses on clean UI design, efficient data fetching, and smooth rendering of image content.",
       image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/YashKathait28/Amazon-Clone",
-      webapp: "https://amazon-clone-lake-gamma.vercel.app/",
+      tags: ["HTML", "CSS", "JavaScript", "Framer Motion", "React JS", "API"],
+      github: "https://github.com/YashKathait28/Gallery-App",
+      webapp: "https://gallery-app-rust.vercel.app/",
     },
   ];  

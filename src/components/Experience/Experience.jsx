@@ -28,7 +28,7 @@ const Experience = () => {
             }`}
           >
             {/* Card */}
-            <div className="w-full sm:w-[46.5%] bg-gray-900 border border-white/70 rounded-2xl p-6 shadow-[0_0_25px_rgba(130,69,236,0.35)]">
+            <div className="w-full sm:w-[46%] bg-gray-900 border border-white/70 rounded-2xl p-6 shadow-[0_0_25px_rgba(130,69,236,0.35)]">
               {/* Header */}
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-16 h-14 bg-white rounded-md overflow-hidden">

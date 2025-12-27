@@ -28,7 +28,8 @@ const About = () => {
                 text={[
                   "Fullstack Developer",
                   "Web Designer",
-                  "Coder",
+                  "Data Analyst",
+                  "AI/ML",
                 ]}
                 speed={100}
                 eraseSpeed={50}
@@ -48,7 +49,7 @@ const About = () => {
             </p>
 
             <a
-              href="https://drive.google.com/file/d/19tdqlFn0MThhdnE7uHulyesokr247C8b/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1WFllxUICohN5i-eb-WJaJC2W1fkr1_OV/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 hover:scale-105"
