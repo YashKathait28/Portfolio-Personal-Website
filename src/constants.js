@@ -28,7 +28,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import skillsbgimg from './assets/company_logo/3bg.png';
 import webverseLogo from './assets/company_logo/codealpha.png';
 import agcLogo from './assets/company_logo/chi.png';
-import newtonschoolLogo from './assets/company_logo/codsoft.png';
+
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/mru.png';
@@ -149,20 +149,7 @@ export const SkillsInfo = [
         "Redux",
       ],
     },
-    {
-      id: 3,
-      img: newtonschoolLogo,
-      role: "C++ Programming Intern",
-      company: "CodSoft",
-      date: "March 2025 - June 2025",
-      desc: "I completed a virtual internship at CodSoft in C++ Programming, where I worked on projects that strengthened my knowledge of object-oriented programming, data structures, algorithms, and problem-solving in C++",
-      skills: [
-        "C++",
-        "OOPs",
-        "DSA",
-      ],
-    },
-  ];
+];
   
   export const education = [
     {
