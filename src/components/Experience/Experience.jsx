@@ -4,8 +4,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 px-6 md:px-12 lg:px-20 font-sans bg-skills-gradient clip-path-custom-2"
-    >
+      className="py-24 px-6 md:px-12 lg:px-20 font-sans bg-skills-gradient clip-path-custom-2 ">
       {/* Section Header */}
       <div className="text-center mb-20">
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>

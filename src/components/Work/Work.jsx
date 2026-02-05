@@ -5,7 +5,7 @@ const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <section id="work" className="py-24 px-6 md:px-12 lg:px-20 font-sans clip-path-custom-3">
+    <section id="work" className="py-24 px-6 md:px-12 lg:px-20 font-sans clip-path-flat">
       {/* Header */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
