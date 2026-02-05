@@ -11,9 +11,8 @@ const About = () => {
       {/* Max width container */}
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col-reverse md:flex-row items-center gap-10 xl:gap-14">
-
           {/* LEFT SIDE */}
-          <div className="ml-40 text-center md:text-left">
+          <div className="md:ml-40 text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2">
               Hi, I am
             </h1>
@@ -63,7 +62,8 @@ const About = () => {
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="mr-10 flex justify-center">
+          {/* RIGHT SIDE */}
+          <div className="md:mr-10 flex justify-center">
             <Tilt
               className="
                 w-56 h-56
@@ -94,7 +94,6 @@ const About = () => {
               />
             </Tilt>
           </div>
-
         </div>
       </div>
     </section>

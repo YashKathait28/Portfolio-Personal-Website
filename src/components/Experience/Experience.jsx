@@ -69,7 +69,7 @@ const Experience = () => {
             </div>
 
             {/* Timeline Dot */}
-            <div className="absolute left-1/2 top-6 -translate-x-1/2 z-10">
+            <div className="hidden md:block absolute left-1/2 top-6 -translate-x-1/2 z-10">
               <div className="w-14 h-14 rounded-full bg-white border-4 border-[#8245ec] flex items-center justify-center">
                 <img
                   src={exp.img}
