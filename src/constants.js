@@ -23,7 +23,7 @@ import mcLogo from "./assets/tech_logo/mc.png";
 import figmaLogo from "./assets/tech_logo/figma.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
-import localwpLogo from "./assets/tech_logo/local_wp.png";
+import localwpLogo from "./assets/tech_logo/LocalWP.png";
 
 // Experience Section Logo's
 import skillsbgimg from "./assets/company_logo/3bg.png";
