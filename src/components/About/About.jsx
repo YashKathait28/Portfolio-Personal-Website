@@ -27,8 +27,7 @@ const About = () => {
                 text={[
                   "Fullstack Developer",
                   "Web Designer",
-                  "Data Analyst",
-                  "AI/ML",
+                  "AIML Engineer",
                 ]}
                 speed={100}
                 eraseSpeed={50}
@@ -44,7 +43,8 @@ const About = () => {
               I am a full-stack developer with over 1 year of experience in
               building scalable web applications. Skilled in both front-end and
               back-end development, I specialize in the MERN stack and modern
-              technologies to create efficient, user-focused solutions.
+              technologies to create efficient, user-focused solutions and also I
+              have experience and knowledge in AI/ML development.
             </p>
 
             <a
