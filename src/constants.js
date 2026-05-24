@@ -23,11 +23,11 @@ import mcLogo from "./assets/tech_logo/mc.png";
 import figmaLogo from "./assets/tech_logo/figma.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
-import localwpLogo from "./assets/tech_logo/localwp.png";
+import localwpLogo from "./assets/tech_logo/local_wp.png";
 
 // Experience Section Logo's
 import skillsbgimg from "./assets/company_logo/3bg.png";
-import etharaLogo from "./assets/company_logo/ethara_ai.png";
+import etharaLogo from "./assets/company_logo/ethara_ai.png"; 
 import agcLogo from "./assets/company_logo/chi.png";
 
 // Education Section Logo's
